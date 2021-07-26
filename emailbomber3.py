@@ -41,7 +41,7 @@ print ('')
 
 if not Cserver == '':
     stmp_server = Cserver
-    Cport = input('Custom smtp port (leave blank to use defaul port): '))
+    Cport = input('Custom smtp port (leave blank to use defaul port): ')
     if not Cport == '':
         port = int(Cport)
     else:
